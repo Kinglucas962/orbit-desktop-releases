@@ -1,0 +1,6 @@
+* { box-sizing: border-box; }
+body { margin: 0; background: #15131f; color: #f5f2ff; font-family: "Segoe UI", sans-serif; }
+main { text-align: center; padding: 28px; }
+.gem { color: #a78bfa; font-size: 30px; } h1 { margin: 8px 0 4px; font-size: 22px; } p { color: #cbc4dc; min-height: 22px; } #detail { font-size: 13px; }
+#bar { height: 8px; overflow: hidden; border-radius: 9px; background: #322d43; margin: 20px 24px 8px; } #fill { width: 0; height: 100%; background: #8b5cf6; transition: width .2s; } .hidden { display: none; }
+button { border: 0; border-radius: 7px; padding: 10px 16px; margin: 6px; background: #8b5cf6; color: white; font-weight: 600; cursor: pointer; } button.secondary { background: #3b354a; }

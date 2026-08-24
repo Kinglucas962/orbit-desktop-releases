@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Compartilhar tela — Orbit</title>
+  <link rel="stylesheet" href="display-picker.css">
+</head>
+<body>
+  <header>
+    <div><h1>Escolha o que compartilhar</h1><p>Selecione uma tela ou uma janela aberta.</p></div>
+    <button id="close" type="button" aria-label="Fechar">×</button>
+  </header>
+  <nav aria-label="Tipo de origem">
+    <button class="tab active" data-kind="screen" type="button">Telas</button>
+    <button class="tab" data-kind="window" type="button">Janelas</button>
+  </nav>
+  <main id="sources" aria-live="polite"><p class="loading">Carregando telas…</p></main>
+  <footer>
+    <label><input id="system-audio" type="checkbox" checked> Compartilhar áudio do sistema</label>
+    <button id="cancel" type="button">Cancelar</button>
+  </footer>
+  <script src="display-picker-renderer.js"></script>
+</body>
+</html>
