@@ -1,6 +1,6 @@
-# Orbit Desktop 1.2.7
+# Orbit Desktop
 
-Cliente Windows independente para o Orbit. A interface principal é carregada de `https://mini-discord-ashy.vercel.app`; por isso mudanças publicadas no site aparecem automaticamente aos usuários.
+Cliente Windows independente para o Orbit. A interface principal é carregada de `https://lucas-pc.tail0624c3.ts.net:8443` (servidor auto-hospedado via Tailscale Funnel); por isso mudanças publicadas no site aparecem automaticamente aos usuários. A versão atual fica em `package.json` e na aba [Releases](https://github.com/Kinglucas962/orbit-desktop-releases/releases).
 
 ## Uso
 
@@ -21,4 +21,4 @@ Para cada atualização, aumente a versão do `package.json`, execute `npm run d
 
 ## Ícone
 
-Esta primeira versão usa o ícone padrão do Electron como placeholder. Para personalizar, adicione `build/icon.ico` e inclua `"icon": "build/icon.ico"` dentro de `build.win` no `package.json`.
+O ícone (janela, bandeja e instalador) fica em `src/assets/` (`orbit-icon.png`, `orbit-tray.png`, `orbit.ico`), referenciado em `src/main.js` e em `build.win.icon` no `package.json`.
